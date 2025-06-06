@@ -17,24 +17,23 @@ test('valid login', async ({ page }) => {
   const checkoutPage=new CheckoutPage(page);
   const checkoutCompletePage=new CheckoutCompletePage(page);
 
-  logger.info('validating the data from env');
-  if(!process.env.STANDARD_USER){
-    logger.error('STANDARD_USER is not defined in the environment variables');
-    throw new Error('STANDARD_USER is not defined in the environment variables');
-  } 
-  const username=  process.env.STANDARD_USER!;
-  if(!process.env.STANDARD_PASS){
-    logger.error('STANDARD_PASS is not defined in the environment variables');
-    throw new Error('STANDARD_PASS is not defined in the environment variables');
-  }
-  //encrypt and decrypt the password
+   //encrypt and decrypt the data
   const decryptPass=decrypt(process.env.STANDARD_PASS!); 
   const decryptUser=decrypt(process.env.STANDARD_USER!);
   const decryptFirstName=decrypt(process.env.FIRST_NAME!);
   const decryptLastName=decrypt(process.env.LAST_NAME!);
   const decryptPincode=decrypt(process.env.PINCODE!);
 
-
+  logger.info('validating the data from env');
+  if(!decryptUser){
+    logger.error('STANDARD_USER is not defined in the environment variables');
+    throw new Error('STANDARD_USER is not defined in the environment variables');
+  } 
+  if(!decryptPass){
+    logger.error('STANDARD_PASS is not defined in the environment variables');
+    throw new Error('STANDARD_PASS is not defined in the environment variables');
+  }
+ 
   //const password=decrypt(process.env.STANDARD_PASS!);
   //const password = decrypt(encryptPass);
 
