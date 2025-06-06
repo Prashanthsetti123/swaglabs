@@ -5,6 +5,7 @@ node_modules/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
-.env.dev
-.env*
-!.env.dev.enc
+# .env.dev
+# .env*
+# !.env.dev.enc
+/utils/encrypt-env-value.ts
