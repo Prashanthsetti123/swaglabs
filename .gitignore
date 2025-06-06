@@ -1,11 +1,17 @@
-
-# Playwright
+# Node.js dependencies
 node_modules/
-/test-results/
-/playwright-report/
-/blob-report/
-/playwright/.cache/
-# .env.dev
-# .env*
-# !.env.dev.enc
-/utils/encrypt-env-value.ts
+
+# Playwright output
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Ignore all .env* files...
+.env*
+
+# ...but keep .env.dev
+!.env.dev
+
+# Ignore encrypted utility script
+utils/encrypt-env-value.ts
