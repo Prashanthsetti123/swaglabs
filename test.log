@@ -113,3 +113,17 @@
 2025-06-06 14:44:27 [INFO]: Item added to cart, proceeding to checkout
 2025-06-06 14:44:27 [INFO]: Filling in user details for checkout
 2025-06-06 14:44:28 [INFO]: Checkout completed, verifying order success
+2025-06-06 16:04:25 [INFO]: Starting valid login test
+2025-06-06 16:04:25 [INFO]: validating the data from env
+2025-06-06 16:04:25 [INFO]: Navigating to login page and performing login
+2025-06-06 16:04:25 [INFO]: the encrypted value is: 14cfeb358986513c52e17499bc0f55f0:4e26773de9c31940d86a69e1bbc15685
+2025-06-06 16:04:25 [INFO]: the encrypted username is: f92faca52e28068525a0680e5e9ad486:86a3216253cf975f1dd8744d6aa1502f
+2025-06-06 16:08:22 [INFO]: Starting valid login test
+2025-06-06 16:08:22 [INFO]: validating the data from env
+2025-06-06 16:08:22 [INFO]: Navigating to login page and performing login
+2025-06-06 16:08:22 [INFO]: the encrypted value is: secret_sauce
+2025-06-06 16:08:22 [INFO]: the encrypted username is: standard_user
+2025-06-06 16:08:23 [INFO]: Login successful, navigating to inventory page
+2025-06-06 16:08:24 [INFO]: Item added to cart, proceeding to checkout
+2025-06-06 16:08:24 [INFO]: Filling in user details for checkout
+2025-06-06 16:08:24 [INFO]: Checkout completed, verifying order success

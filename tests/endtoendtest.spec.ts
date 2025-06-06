@@ -28,32 +28,37 @@ test('valid login', async ({ page }) => {
     throw new Error('STANDARD_PASS is not defined in the environment variables');
   }
   //encrypt and decrypt the password
-  const encryptPass=encrypt(process.env.STANDARD_PASS!); 
+  const decryptPass=decrypt(process.env.STANDARD_PASS!); 
+  const decryptUser=decrypt(process.env.STANDARD_USER!);
+  const decryptFirstName=decrypt(process.env.FIRST_NAME!);
+  const decryptLastName=decrypt(process.env.LAST_NAME!);
+  const decryptPincode=decrypt(process.env.PINCODE!);
+
+
   //const password=decrypt(process.env.STANDARD_PASS!);
   //const password = decrypt(encryptPass);
 
-  if(!process.env.FIRST_NAME) {
+  if(!decryptFirstName) {
     logger.error('First name is not defined in the environment variables');
     throw new Error('First name is not defined in the environment variables');
   }         
-  const firstname=process.env.FIRST_NAME!;
-  if(!process.env.LAST_NAME) {
+ 
+  if(!decryptLastName) {
     logger.error('Last name is not defined in the environment variables');
     throw new Error('Last name is not defined in the environment variables');
   }
-  const lastname=process.env.LAST_NAME!;
 
-  if(!process.env.PINCODE) {
+  if(!decryptPincode) {
     logger.error('Pincode is not defined in the environment variables');
     throw new Error('Pincode is not defined in the environment variables');
   }
-  const pincode=process.env.PINCODE!;
 
   logger.info('Navigating to login page and performing login');
-  //logger.info('the encrypted value is: ' + encryptPass);
-  logger.info('the decrypted value is: ' + password);
+  logger.info('the encrypted value is: ' + decryptPass);
+  logger.info('the encrypted username is: ' + decryptUser);
+
   await loginPage.gotoLoginPage();
-  await loginPage.login(username, password);
+  await loginPage.login(decryptUser, decryptPass);
   await expect(page).toHaveURL(/.*inventory/); 
 
   logger.info('Login successful, navigating to inventory page');
@@ -64,7 +69,7 @@ test('valid login', async ({ page }) => {
   await cartPage.proceedToCheckout();
 
   logger.info('Filling in user details for checkout');
-  await checkoutPage.fillUserDetails(firstname,lastname,pincode);
+  await checkoutPage.fillUserDetails(decryptFirstName,decryptLastName,decryptPincode);
   await checkoutPage.finishCheckout();
 
   logger.info('Checkout completed, verifying order success');

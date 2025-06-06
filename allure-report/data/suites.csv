@@ -1,2 +1,2 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","3814","valid login","chromium","Fri Jun 06 14:44:23 IST 2025","passed","Fri Jun 06 14:44:27 IST 2025","","endtoendtest.spec.ts","",""
+"","2373","valid login","chromium","Fri Jun 06 16:08:21 IST 2025","passed","Fri Jun 06 16:08:23 IST 2025","","endtoendtest.spec.ts","",""
