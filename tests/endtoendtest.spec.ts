@@ -71,6 +71,7 @@ test('valid login', async ({ page }) => {
   await checkoutPage.fillUserDetails(decryptFirstName,decryptLastName,decryptPincode);
   await checkoutPage.finishCheckout();
 
+  //checkout comment for git checkout complete page
   logger.info('Checkout completed, verifying order success');
   await checkoutCompletePage.verifyOrderSuccess();
 

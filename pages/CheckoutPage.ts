@@ -24,6 +24,7 @@ export class CheckoutPage {
     await this.continueButton.click();
   }
 
+  //checkout comment for git checkout page
   async finishCheckout() {
     await this.finishButton.click();
   }
