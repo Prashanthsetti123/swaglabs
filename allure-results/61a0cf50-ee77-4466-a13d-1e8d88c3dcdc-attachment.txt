@@ -1,0 +1,8 @@
+2025-06-06 14:44:25 [INFO]: Starting valid login test
+2025-06-06 14:44:25 [INFO]: validating the data from env
+2025-06-06 14:44:25 [INFO]: Navigating to login page and performing login
+2025-06-06 14:44:25 [INFO]: the decrypted value is: secret_sauce
+2025-06-06 14:44:27 [INFO]: Login successful, navigating to inventory page
+2025-06-06 14:44:27 [INFO]: Item added to cart, proceeding to checkout
+2025-06-06 14:44:27 [INFO]: Filling in user details for checkout
+2025-06-06 14:44:28 [INFO]: Checkout completed, verifying order success

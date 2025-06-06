@@ -1,0 +1,115 @@
+2025-06-05 14:45:37 [INFO]: Starting valid login test
+2025-06-05 14:45:37 [INFO]: validating the data from env
+2025-06-05 14:45:37 [INFO]: Navigating to login page and performing login
+2025-06-05 14:45:38 [INFO]: Login successful, navigating to inventory page
+2025-06-05 14:45:39 [INFO]: Item added to cart, proceeding to checkout
+2025-06-05 14:45:39 [INFO]: Filling in user details for checkout
+2025-06-05 14:45:39 [INFO]: Checkout completed, verifying order success
+2025-06-05 15:42:43 [INFO]: Starting valid login test
+2025-06-05 15:42:43 [INFO]: validating the data from env
+2025-06-05 15:42:43 [ERROR]: STANDARD_USER is not defined in the environment variables
+2025-06-05 15:46:07 [INFO]: Starting valid login test
+2025-06-05 15:46:07 [INFO]: validating the data from env
+2025-06-05 15:46:07 [ERROR]: STANDARD_USER is not defined in the environment variables
+2025-06-05 15:56:06 [INFO]: Starting valid login test
+2025-06-05 15:56:06 [INFO]: validating the data from env
+2025-06-05 15:56:06 [INFO]: Navigating to login page and performing login
+2025-06-05 15:56:07 [INFO]: Login successful, navigating to inventory page
+2025-06-05 15:56:07 [INFO]: Item added to cart, proceeding to checkout
+2025-06-05 15:56:07 [INFO]: Filling in user details for checkout
+2025-06-05 15:56:07 [INFO]: Checkout completed, verifying order success
+2025-06-05 16:06:40 [INFO]: Starting valid login test
+2025-06-05 16:06:40 [INFO]: validating the data from env
+2025-06-05 16:06:40 [INFO]: Navigating to login page and performing login
+2025-06-05 16:06:42 [INFO]: Login successful, navigating to inventory page
+2025-06-05 16:06:42 [INFO]: Item added to cart, proceeding to checkout
+2025-06-05 16:06:42 [INFO]: Filling in user details for checkout
+2025-06-05 16:06:42 [INFO]: Checkout completed, verifying order success
+2025-06-06 10:47:56 [INFO]: Starting valid login test
+2025-06-06 10:47:56 [INFO]: validating the data from env
+2025-06-06 10:47:56 [ERROR]: STANDARD_USER is not defined in the environment variables
+2025-06-06 10:50:22 [INFO]: Starting valid login test
+2025-06-06 10:50:22 [INFO]: validating the data from env
+2025-06-06 10:50:22 [INFO]: Navigating to login page and performing login
+2025-06-06 10:50:23 [INFO]: Login successful, navigating to inventory page
+2025-06-06 10:50:23 [INFO]: Item added to cart, proceeding to checkout
+2025-06-06 10:50:23 [INFO]: Filling in user details for checkout
+2025-06-06 10:50:24 [INFO]: Checkout completed, verifying order success
+2025-06-06 10:52:20 [INFO]: Starting valid login test
+2025-06-06 10:52:20 [INFO]: validating the data from env
+2025-06-06 10:52:20 [INFO]: Navigating to login page and performing login
+2025-06-06 10:52:20 [INFO]: the decrypted value is: secret_sauce
+2025-06-06 10:52:21 [INFO]: Login successful, navigating to inventory page
+2025-06-06 10:52:22 [INFO]: Item added to cart, proceeding to checkout
+2025-06-06 10:52:22 [INFO]: Filling in user details for checkout
+2025-06-06 10:52:22 [INFO]: Checkout completed, verifying order success
+2025-06-06 11:10:49 [INFO]: Starting valid login test
+2025-06-06 11:10:49 [INFO]: validating the data from env
+2025-06-06 11:10:49 [INFO]: Navigating to login page and performing login
+2025-06-06 11:10:49 [INFO]: the decrypted value is: secrest_sauce
+2025-06-06 11:12:08 [INFO]: Starting valid login test
+2025-06-06 11:12:08 [INFO]: validating the data from env
+2025-06-06 11:12:08 [INFO]: Navigating to login page and performing login
+2025-06-06 11:12:08 [INFO]: the decrypted value is: secrest_sauce
+2025-06-06 11:14:40 [INFO]: Starting valid login test
+2025-06-06 11:14:40 [INFO]: validating the data from env
+2025-06-06 11:14:40 [INFO]: Navigating to login page and performing login
+2025-06-06 11:14:40 [INFO]: the decrypted value is: secrest_sauce
+2025-06-06 11:15:56 [INFO]: Starting valid login test
+2025-06-06 11:15:56 [INFO]: validating the data from env
+2025-06-06 11:15:56 [INFO]: Navigating to login page and performing login
+2025-06-06 11:15:56 [INFO]: the decrypted value is: secret_sauce
+2025-06-06 11:15:57 [INFO]: Login successful, navigating to inventory page
+2025-06-06 11:15:58 [INFO]: Item added to cart, proceeding to checkout
+2025-06-06 11:15:58 [INFO]: Filling in user details for checkout
+2025-06-06 11:15:58 [INFO]: Checkout completed, verifying order success
+2025-06-06 12:12:29 [INFO]: Starting valid login test
+2025-06-06 12:12:29 [INFO]: validating the data from env
+2025-06-06 12:12:29 [INFO]: Navigating to login page and performing login
+2025-06-06 12:12:29 [INFO]: the decrypted value is: secret_sauce
+2025-06-06 12:12:31 [INFO]: Login successful, navigating to inventory page
+2025-06-06 12:12:31 [INFO]: Item added to cart, proceeding to checkout
+2025-06-06 12:12:32 [INFO]: Filling in user details for checkout
+2025-06-06 12:12:32 [INFO]: Checkout completed, verifying order success
+2025-06-06 12:38:42 [INFO]: Starting valid login test
+2025-06-06 12:38:42 [INFO]: validating the data from env
+2025-06-06 12:38:42 [INFO]: Navigating to login page and performing login
+2025-06-06 12:38:42 [INFO]: the decrypted value is: secret_sauce
+2025-06-06 12:38:43 [INFO]: Login successful, navigating to inventory page
+2025-06-06 12:38:44 [INFO]: Item added to cart, proceeding to checkout
+2025-06-06 12:38:44 [INFO]: Filling in user details for checkout
+2025-06-06 12:38:44 [INFO]: Checkout completed, verifying order success
+2025-06-06 12:47:31 [INFO]: Starting valid login test
+2025-06-06 12:47:31 [INFO]: validating the data from env
+2025-06-06 12:47:31 [INFO]: Navigating to login page and performing login
+2025-06-06 12:47:31 [INFO]: the encrypted value is: 9a4983480acf75d15564d62c381e7564:773356d7eec9b2d9019d936fef3c6b5f
+2025-06-06 12:47:31 [INFO]: the decrypted value is: secret_sauce
+2025-06-06 12:47:33 [INFO]: Login successful, navigating to inventory page
+2025-06-06 12:47:33 [INFO]: Item added to cart, proceeding to checkout
+2025-06-06 12:47:33 [INFO]: Filling in user details for checkout
+2025-06-06 12:47:34 [INFO]: Checkout completed, verifying order success
+2025-06-06 14:33:29 [INFO]: Starting valid login test
+2025-06-06 14:33:29 [INFO]: validating the data from env
+2025-06-06 14:33:29 [INFO]: Navigating to login page and performing login
+2025-06-06 14:33:29 [INFO]: the encrypted value is: 05a18315b4bdc469ce7ff05eeaefec0b:40ca77f4464de4319c2e7c5611f65f42
+2025-06-06 14:33:29 [INFO]: the decrypted value is: secret_sauce
+2025-06-06 14:33:30 [INFO]: Login successful, navigating to inventory page
+2025-06-06 14:33:30 [INFO]: Item added to cart, proceeding to checkout
+2025-06-06 14:33:30 [INFO]: Filling in user details for checkout
+2025-06-06 14:33:31 [INFO]: Checkout completed, verifying order success
+2025-06-06 14:42:24 [INFO]: Starting valid login test
+2025-06-06 14:42:24 [INFO]: validating the data from env
+2025-06-06 14:42:24 [INFO]: Navigating to login page and performing login
+2025-06-06 14:42:24 [INFO]: the decrypted value is: secret_sauce
+2025-06-06 14:42:26 [INFO]: Login successful, navigating to inventory page
+2025-06-06 14:42:26 [INFO]: Item added to cart, proceeding to checkout
+2025-06-06 14:42:27 [INFO]: Filling in user details for checkout
+2025-06-06 14:42:27 [INFO]: Checkout completed, verifying order success
+2025-06-06 14:44:25 [INFO]: Starting valid login test
+2025-06-06 14:44:25 [INFO]: validating the data from env
+2025-06-06 14:44:25 [INFO]: Navigating to login page and performing login
+2025-06-06 14:44:25 [INFO]: the decrypted value is: secret_sauce
+2025-06-06 14:44:27 [INFO]: Login successful, navigating to inventory page
+2025-06-06 14:44:27 [INFO]: Item added to cart, proceeding to checkout
+2025-06-06 14:44:27 [INFO]: Filling in user details for checkout
+2025-06-06 14:44:28 [INFO]: Checkout completed, verifying order success

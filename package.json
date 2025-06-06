@@ -1,0 +1,32 @@
+{
+  "name": "swaglabs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "clean:reports": "rimraf allure-results allure-report && mkdirp allure-results allure-report ",
+    "generate:reports": "npx allure generate allure-results --clean",
+    "open:reports": "npx allure open allure-report",
+    "pretest": "npm run clean:reports",
+    "posttest": "npm run generate:reports && npm run open:reports",
+    "execute:script": "npx playwright test --project=chromium ",
+    "test": "npm run execute:script && npm run posttest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.29",
+    "allure-commandline": "^2.34.0",
+    "allure-playwright": "^3.2.2",
+    "mkdirp": "^3.0.1",
+    "rimraf": "^6.0.1",
+    "winston": "^3.17.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
