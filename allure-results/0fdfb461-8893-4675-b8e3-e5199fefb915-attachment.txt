@@ -1,0 +1,9 @@
+2025-06-09 12:53:46 [INFO]: Starting valid login test
+2025-06-09 12:53:46 [INFO]: validating the data from env
+2025-06-09 12:53:46 [INFO]: Navigating to login page and performing login
+2025-06-09 12:53:46 [INFO]: the encrypted value is: secret_sauce
+2025-06-09 12:53:46 [INFO]: the encrypted username is: standard_user
+2025-06-09 12:53:47 [INFO]: Login successful, navigating to inventory page
+2025-06-09 12:53:47 [INFO]: Item added to cart, proceeding to checkout
+2025-06-09 12:53:47 [INFO]: Filling in user details for checkout
+2025-06-09 12:53:47 [INFO]: Checkout completed, verifying order success
